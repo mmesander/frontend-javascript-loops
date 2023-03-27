@@ -75,7 +75,13 @@ const squares = [30, 2, 8, 24, 11];
 
 console.log("Opdracht 3:")
 console.log("-------------------------------")
-
+console.log(squares)
+for (let i = 0; i < squares.length; i++) {
+    const squareVolume = squares[i] * squares[i] * squares[i]
+    const newValue = ("Het volume van " + squares[i] + " is " + squareVolume)
+    squares[i] = newValue
+}
+console.log(squares)
 console.log("-------------------------------")
 console.log(" ")
 
