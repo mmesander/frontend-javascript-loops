@@ -70,16 +70,22 @@ console.log(" ")
 console.log("Opdracht 1c:")
 console.log("-------------------------------")
 for (let i = 0; i < scores.length; i++) {
-    if (scores[i].score < 60) {
-        scores[i].grade = "F"
-    } else if (scores[i].score < 70) {
-        scores[i].grade = "D"
-    } else if (scores[i].score < 80) {
-        scores[i].grade = "C"
-    } else if (scores[i].score < 90) {
-        scores[i].grade = "B"
-    } else {
-        scores[i].grade = "A"
+    switch (true) {
+        case (scores[i].score < 60):
+            scores[i].grade = 'F'
+            break
+        case (scores[i].score < 70):
+            scores[i].grade = 'D'
+            break
+        case (scores[i].score < 80):
+            scores[i].grade = 'C'
+            break
+        case (scores[i].score < 90):
+            scores[i].grade = 'B'
+            break
+        case (scores[i].score < 100):
+            scores[i].grade = 'A'
+            break
     }
 }
 console.log(scores)
