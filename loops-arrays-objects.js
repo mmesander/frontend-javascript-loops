@@ -16,9 +16,13 @@ const scores = [
 // 66ç
 // ==========================================
 
-
-
-
+console.log("Opdracht 1a:")
+console.log("-------------------------------")
+for (let i = 0; i < scores.length; i++) {
+    console.log(scores[i].score)
+}
+console.log("-------------------------------")
+console.log(" ")
 
 // ==========================================
 // Opdracht 1b
@@ -32,9 +36,23 @@ const scores = [
 // D
 // ==========================================
 
-
-
-
+console.log("Opdracht 1b:")
+console.log("-------------------------------")
+for (let i = 0; i < scores.length; i++) {
+    if (scores[i].score < 60) {
+        console.log("F")
+    } else if (scores[i].score < 70) {
+        console.log("D")
+    } else if (scores[i].score < 80) {
+        console.log("C")
+    } else if (scores[i].score < 90) {
+        console.log("B")
+    } else {
+        console.log("A")
+    }
+}
+console.log("-------------------------------")
+console.log(" ")
 
 // ==========================================
 // Opdracht 1c
@@ -49,9 +67,24 @@ const scores = [
 //  ];
 // ==========================================
 
-
-
-
+console.log("Opdracht 1c:")
+console.log("-------------------------------")
+for (let i = 0; i < scores.length; i++) {
+    if (scores[i].score < 60) {
+        scores[i].grade = "F"
+    } else if (scores[i].score < 70) {
+        scores[i].grade = "D"
+    } else if (scores[i].score < 80) {
+        scores[i].grade = "C"
+    } else if (scores[i].score < 90) {
+        scores[i].grade = "B"
+    } else {
+        scores[i].grade = "A"
+    }
+    console.log(scores[i])
+}
+console.log("-------------------------------")
+console.log(" ")
 
 // ==========================================
 // Opdracht 2
@@ -75,17 +108,21 @@ const NOVIEmployees = [
 //  ];
 // ==========================================
 
+console.log("Opdracht 2:")
+console.log("-------------------------------")
 
-
-
-
+console.log("-------------------------------")
+console.log(" ")
 
 // Opdracht 2-BONUS
 // Lukt het je om ervoor te zorgen dat alle e-mailadressen in lowercase letters komen te staan? Dit heb je nog niet geleerd, maar google is your best friend...
 // ==========================================
 
+console.log("Opdracht 2 (BONUS):")
+console.log("-------------------------------")
 
-
+console.log("-------------------------------")
+console.log(" ")
 
 // ==========================================
 // Opdracht 3
@@ -131,5 +168,9 @@ const students = [
 // ]
 // ==========================================
 
+console.log("Opdracht 3:")
+console.log("-------------------------------")
 
+console.log("-------------------------------")
+console.log(" ")
 
