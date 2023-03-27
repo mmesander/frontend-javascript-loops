@@ -12,9 +12,15 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 
-
-
-
+console.log("Opdracht 1:")
+console.log("-------------------------------")
+console.log(names)
+for (let i = 0; i < names.length; i++) {
+    names[i] = names[i] + "je"
+}
+console.log(names)
+console.log("-------------------------------")
+console.log(" ")
 
 // ==========================================
 // Opdracht 2
@@ -30,9 +36,11 @@ const numbers = [2, 4, 5, 29, 38];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(numbers) geeft: [ 4, 8, 15, 87, 76 ];
 
+console.log("Opdracht 2:")
+console.log("-------------------------------")
 
-
-
+console.log("-------------------------------")
+console.log(" ")
 
 // ==========================================
 // Opdracht 3
@@ -57,5 +65,9 @@ const squares = [30, 2, 8, 24, 11];
 //   'Het volume van 11 is 1331'
 // ]
 
+console.log("Opdracht 3:")
+console.log("-------------------------------")
 
+console.log("-------------------------------")
+console.log(" ")
 
