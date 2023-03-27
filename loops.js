@@ -63,7 +63,15 @@ console.log(" ")
 
 console.log("Opdracht 3:")
 console.log("-------------------------------")
-
+for (let i = 0; i < 10; i++) {
+    if (i < 3) {
+        console.log(i)
+    } else if (i < 6) {
+        console.log("> " + i)
+    } else {
+        console.log(">> " + i)
+    }
+}
 console.log("-------------------------------")
 console.log(" ")
 
@@ -105,7 +113,7 @@ console.log(" ")
 // etc.
 // ==========================================
 
-console.log("Opdracht 4:")
+console.log("Opdracht 4 (BONUS):")
 console.log("-------------------------------")
 
 console.log("-------------------------------")
