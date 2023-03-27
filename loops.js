@@ -11,7 +11,14 @@
 // Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
 
-
+console.log("Opdracht 1:")
+console.log("-------------------------------")
+for (let i = 0; i < 6; i++) {
+    console.log("*".repeat(i))
+}
+console.log(" ")
+console.log("-------------------------------")
+console.log(" ")
 
 
 
@@ -26,7 +33,12 @@
 // ==========================================
 
 
+console.log("Opdracht 2:")
+console.log("-------------------------------")
 
+console.log(" ")
+console.log("-------------------------------")
+console.log(" ")
 
 
 // ==========================================
