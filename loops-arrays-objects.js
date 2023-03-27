@@ -81,8 +81,8 @@ for (let i = 0; i < scores.length; i++) {
     } else {
         scores[i].grade = "A"
     }
-    console.log(scores[i])
 }
+console.log(scores)
 console.log("-------------------------------")
 console.log(" ")
 
@@ -110,7 +110,10 @@ const NOVIEmployees = [
 
 console.log("Opdracht 2:")
 console.log("-------------------------------")
-
+console.log(NOVIEmployees)
+for (i = 0; i < NOVIEmployees.length; i++)
+    NOVIEmployees[i].email = NOVIEmployees[i].firstName + "." + NOVIEmployees[i].lastName + "@novi.nl"
+console.log(NOVIEmployees)
 console.log("-------------------------------")
 console.log(" ")
 
@@ -120,7 +123,9 @@ console.log(" ")
 
 console.log("Opdracht 2 (BONUS):")
 console.log("-------------------------------")
-
+for (i = 0; i < NOVIEmployees.length; i++)
+    NOVIEmployees[i].email = NOVIEmployees[i].firstName.toLowerCase() + "." + NOVIEmployees[i].lastName.toLowerCase() + "@novi.nl"
+console.log(NOVIEmployees)
 console.log("-------------------------------")
 console.log(" ")
 
@@ -170,7 +175,31 @@ const students = [
 
 console.log("Opdracht 3:")
 console.log("-------------------------------")
-
+for (let i = 0; i < students.length; i++) {
+    switch (students[i].zipCode) {
+        case '3513':
+            students[i].neighborhood = 'Pijlsweerd'
+            break
+        case '3514':
+            students[i].neighborhood = 'Vogelenbuurt'
+            break
+        case '3512':
+            students[i].neighborhood = 'Binnenstad'
+            break
+        case '3531':
+            students[i].neighborhood = 'Lombok'
+            break
+        case '3572':
+            students[i].neighborhood = 'Wittevrouwen'
+            break
+        case '3581':
+            students[i].neighborhood = 'Oudwijk'
+            break
+        case '3583':
+            students[i].neighborhood = 'Schildersbuurt'
+            break
+    }
+}
+console.log(students)
 console.log("-------------------------------")
 console.log(" ")
-
