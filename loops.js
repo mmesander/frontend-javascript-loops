@@ -16,7 +16,6 @@ console.log("-------------------------------")
 for (let i = 0; i < 6; i++) {
     console.log("*".repeat(i))
 }
-console.log(" ")
 console.log("-------------------------------")
 console.log(" ")
 
@@ -35,8 +34,13 @@ console.log(" ")
 
 console.log("Opdracht 2:")
 console.log("-------------------------------")
-
-console.log(" ")
+for (let i = 1; i <= 5; i++) {
+    if (i === 5) {
+        console.log("klaar!")
+    } else {
+        console.log("loop...")
+    }
+}
 console.log("-------------------------------")
 console.log(" ")
 
@@ -57,9 +61,11 @@ console.log(" ")
 // >> 9
 // ==========================================
 
+console.log("Opdracht 3:")
+console.log("-------------------------------")
 
-
-
+console.log("-------------------------------")
+console.log(" ")
 
 // ==========================================
 // Opdracht 4 (BONUS): schrijf een for-loop die van 0 tot 100 loopt en de getallen print.
@@ -99,5 +105,9 @@ console.log(" ")
 // etc.
 // ==========================================
 
+console.log("Opdracht 4:")
+console.log("-------------------------------")
 
+console.log("-------------------------------")
+console.log(" ")
 
